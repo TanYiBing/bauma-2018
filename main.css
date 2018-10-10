@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+ul,
+li,
+table,
+th,
+td,
+p,
+span,
+a {
+    border: 0;
+}
+
+html {
+    font-size: 625%;
+}
+
+body {
+    font: 0.14rem "Microsoft YaHei";
+}
+
+.page_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    position: relative;
+    height: 0.6rem;
+}
+
+.top .logo {
+    display: block;
+    position: absolute;
+    height: 0.36rem;
+    width: 0.63rem;
+    background: url(./images/logo.jpg) no-repeat;
+    background-size: 100% 100%;
+    left: 3.9rem;
+    top: 0.14rem;
+}
+
+.top .links {
+    position: absolute;
+    line-height: 0.14rem;
+    right: 3.9rem;
+    top: 0.25rem;
+}
+
+.top .links a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.banner_1 {
+    height: 5rem;
+    background: url(./images/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_2 {
+    height: 7.2rem;
+    background-color: #3671cf;
+}
+
+.banner_2 .meeting_top .meeting_topin {
+    margin: 0.65rem auto;
+    height: 0.5rem;
+    width: 1.56rem;
+    background: url(./images/Title_05.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_2 .meeting_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner_2 .meeting_content .content_left {
+    flex: 1;
+    position: relative;
+}
+
+.banner_2 .meeting_content .content_left .left_header {
+    position: absolute;
+    display: block;
+    width: 4.32rem;
+    height: 0.6rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    left: 3.92rem;
+    top: 0;
+}
+
+.banner_2 .meeting_content .content_left .left_pic {
+    position: absolute;
+    width: 4.8rem;
+    height: 3rem;
+    left: 3.92rem;
+    top: 1.18rem;
+    background: url(./images/video.jpg) no-repeat;
+    background-size: 100% 100%;
+    z-index: 100;
+}
+
+.banner_2 .meeting_content .content_left .left_mock {
+    position: absolute;
+    width: 4.8rem;
+    height: 3rem;
+    left: 4.06rem;
+    top: 1.32rem;
+    background-color: #ff9d00;
+}
+
+.banner_2 .meeting_content .content_right {
+    flex: 1;
+}
+
+.banner_2 .meeting_content .content_right p {
+    display: block;
+    margin-right: 3.9rem;
+    color: #ffffff;
+    margin-bottom: 0.4rem;
+}
+
+.banner_2 .meeting_content .content_right p span {
+    color: #ff9d00;
+}
+
+.banner_3 {
+    height: 3.1rem;
+    background: url(./images/banner_01.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_4 {
+    height: 10.65rem;
+    background-color: blue;
+}
+
+.banner_5 {
+    height: 4.04rem;
+    background: url(./images/banner_02.jpg) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_5 .meiti_header {
+    flex: 1;
+}
+
+.banner_5 .meiti_header div {
+    width: 1.6rem;
+    height: 0.32rem;
+    margin: 0.6rem auto 0;
+    background: url(./images/img_66.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_5 .meiti_content {
+    flex: 1;
+}
+
+.banner_5 .meiti_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_5 .meiti_content p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner_5 .meiti_logs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.banner_5 .meiti_logs img {
+    width: 2.8rem;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner_6 {
+    height: 10.43rem;
+    background-color: bisque;
+}
+
+.banner_7 {
+    height: 10.27rem;
+    background-color: blue;
+}
+
+.banner_8 {
+    height: 8.4rem;
+    background-color: blue;
+}
+
+.banner_9 {
+    height: 7.26rem;
+    background: url(./images/banner_03.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_9 .form_top .form_topin {
+    margin: 0.6rem auto;
+    height: 0.55rem;
+    width: 2.37rem;
+    background: url(./images/Title_102.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_9 .form {
+    margin: 0 auto;
+    width: 11.4rem;
+}
+
+.banner_9 .form .flex_form_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.banner_9 .form .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner_9 .form .submit-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner_9 .form .form-group .last_one {
+    width: 3.6rem;
+    height: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.banner_9 .form .form-group .three_line {
+    width: 3.6rem;
+    height: 0.5rem;
+    margin: 0 0.3rem 0.3rem 0;
+}
+
+.banner_9 .form .form-group select {
+    width: 5.5rem;
+    height: 0.5rem;
+    background: transparent;
+    border: #ffffff solid 1px;
+}
+
+.banner_9 .form .form-group select {
+    width: 5.5rem;
+    height: 0.5rem;
+    background: transparent;
+    border: #ffffff solid 1px;
+    padding-left: 0.1rem;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+}
+
+.banner_9 .form .form-group optgroup {
+    color: #000000;
+}
+
+.banner_9 .form .form-group option {
+    color: #000000;
+}
+
+.banner_9 .form .form-group input {
+    background: transparent;
+    border: #ffffff solid 1px;
+    padding-left: 0.1rem;
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group textarea {
+    width: 11.4rem;
+    height: 1.6rem;
+    background: transparent;
+    border: #ffffff solid 1px;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+    padding: 0.1rem 0 0 0.1rem;
+}
+
+.banner_9 .form .form-group textarea::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group textarea:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ffffff;
+}
+
+.banner_9 .form .form-group textarea:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ffffff;
+}
+
+.banner_9 .form .submit-group button {
+    width: 3.2rem;
+    height: 0.42rem;
+    background-color: #ff9d00;
+    border: none;
+    color: #ffffff;
+}
+
+.footer {
+    height: 1.41rem;
+    background-color: #3671cf;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .share_logos {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .weibo {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(./images/img_104.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0.2rem 0.1rem;
+}
+
+.footer .txweibo {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(./images/img_106.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0.2rem 0.1rem;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    color: #ffffff;
+}
