@@ -26,6 +26,9 @@ span,
 a {
     border: 0;
 }
+a {
+    text-decoration: none;
+}
 
 html {
     font-size: 625%;
@@ -169,7 +172,7 @@ body {
 .banner_5 .meiti_header div {
     width: 1.6rem;
     height: 0.32rem;
-    margin: 0.6rem auto 0;
+    margin: 0.6rem auto;
     background: url(./images/img_66.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -203,7 +206,72 @@ body {
 
 .banner_6 {
     height: 10.43rem;
-    background-color: bisque;
+}
+
+.banner_6 .project_header .headerin {
+    margin: 0.6rem auto;
+    height: 0.55rem;
+    width: 3.54rem;
+    background: url(./images/Title_90.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_6 .project_header .project_label {
+    width: 11.4rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.banner_6 .project_header .project_label p {
+    text-align: center;
+    max-width: 11.4rem;
+    color: #333333;
+}
+
+.banner_6 .project_cards {
+    width: 11.4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.banner_6 .project_cards .project_card {
+    width: 3.5rem;
+    height: 3.04rem;
+    margin: 0 0.45rem 0.4rem 0;
+}
+
+.banner_6 .project_cards .last_card {
+    margin: 0 0 0.4rem 0;
+}
+
+.banner_6 .project_cards .project_card img {
+    width: 3.5rem;
+    height: 2.4rem;
+}
+
+.banner_6 .project_cards .project_card p {
+    border-bottom: #d5d5d5 solid 1px;
+    border-left: #d5d5d5 solid 1px;
+    border-right: #d5d5d5 solid 1px;
+    display: block;
+    width: 3.48rem;
+    height: 0.62rem;
+    font-size: 0.16rem;
+    color: #333333;
+    /* padding: 0.1rem 0.2rem; */
+}
+
+.banner_6 .more {
+    display: block;
+    width: 1.2rem;
+    height: 0.32rem;
+    margin: 0 auto;
+    background-color: #ff9d00;
+    border: 0;
+    color: #ffffff;
+    text-align: center;
 }
 
 .banner_7 {
