@@ -449,28 +449,35 @@ body {
     margin: 0 0.45rem 0.4rem 0;
 }
 
+.banner_6 .project_cards .project_card:hover .pic_title {
+    color: #ffffff;
+    background-color: #3671cf;
+}
+
 .banner_6 .project_cards .last_card {
     margin: 0 0 0.4rem 0;
 }
 
-.banner_6 .project_cards .project_card a {
+.banner_6 .project_cards .project_card .pic {
     display: block;
     width: 3.5rem;
     height: 2.4rem;
 }
 
-.banner_6 .project_cards .project_card img {
+.banner_6 .project_cards .project_card .pic img {
     width: 100%;
     height: 100%;
 }
 
-.banner_6 .project_cards .project_card p {
+.banner_6 .project_cards .project_card .pic_title {
+    display: block;
+    width: 3.5rem;
+    height: 0.64rem;
+    padding-top: 0.1rem;
     border-bottom: #d5d5d5 solid 1px;
     border-left: #d5d5d5 solid 1px;
     border-right: #d5d5d5 solid 1px;
-    display: block;
-    width: 3.48rem;
-    height: 0.62rem;
+    text-align: center;
     font-size: 0.16rem;
     color: #333333;
 }
@@ -479,6 +486,7 @@ body {
     display: block;
     width: 1.2rem;
     height: 0.32rem;
+    line-height: 0.32rem;
     margin: 0 auto;
     background-color: #ff9d00;
     border: 0;
@@ -489,7 +497,6 @@ body {
 .banner_7 {
     height: 10.27rem;
     background-color: #f9f9f9;
-    margin-top: 0.5rem;
 }
 
 .banner_7 .machine_header .headerin {
@@ -510,8 +517,19 @@ body {
 
 .banner_7 .machine_cards .machine_card {
     width: 2.56rem;
-    height: 3.22rem;
     margin: 0 0.38rem 0.4rem 0;
+}
+
+.banner_7 .machine_cards .machine_card:hover .big_title {
+    font-size: 0.2rem;
+    text-align: center;
+    color: #1d4cb2;
+}
+
+.banner_7 .machine_cards .machine_card:hover .small_title {
+    font-size: 0.14rem;
+    text-align: center;
+    color: #1d4cb2;
 }
 
 .banner_7 .machine_cards .last_card {
@@ -523,19 +541,24 @@ body {
     height: 2.56rem;
 }
 
-.banner_7 .machine_cards .machine_card p {
-    display: block;
-    width: 2.56rem;
-    height: 0.66rem;
-    font-size: 0.16rem;
+.banner_7 .machine_cards .machine_card .big_title {
+    font-size: 0.2rem;
+    text-align: center;
     color: #333333;
-    /* padding: 0.1rem 0.2rem; */
+}
+
+.banner_7 .machine_cards .machine_card .small_title {
+    margin-top: 0.1rem;
+    font-size: 0.14rem;
+    text-align: center;
+    color: #333333;
 }
 
 .banner_7 .more {
     display: block;
     width: 1.2rem;
     height: 0.32rem;
+    line-height: 0.32rem;
     margin: 0.4rem auto;
     background-color: #ff9d00;
     border: 0;
@@ -545,6 +568,7 @@ body {
 
 .banner_8 {
     height: 8.4rem;
+    margin-top: 0.6rem;
 }
 
 .banner_8 .about_header p {
