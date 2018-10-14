@@ -247,7 +247,7 @@
                     <li>
                         <img src="./images/08_79.jpg" alt="">
                     </li>
-                </ul>      
+                </ul>
             </div>
         </div>
         <div class="banner_6">
@@ -533,8 +533,8 @@
             var length = ul1.offsetWidth;
             var x = 0;
             var fun = function () {
-                ul1.style.left = x + 'px';
-                ul2.style.left = (x + length) + 'px';
+                ul1.style.left = x/100 + 'rem';
+                ul2.style.left = (x + length)/100 + 'rem';
                 x--;
                 if ((x + length) == 0) {
                     x = 0;
