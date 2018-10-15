@@ -373,22 +373,19 @@ body {
 }
 
 .banner_5 .meiti_header {
-    flex: 1;
+    text-align: center;
 }
 
 .banner_5 .meiti_header div {
     width: 1.6rem;
     height: 0.32rem;
-    margin: 0.6rem auto;
+    margin: 0.6rem auto 0.3rem auto;
     background: url(./images/img_66.png) no-repeat;
     background-size: 100% 100%;
 }
 
 .banner_5 .meiti_content {
-    flex: 1;
-}
-
-.banner_5 .meiti_content {
+    margin-bottom: 0.4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -400,7 +397,6 @@ body {
 }
 
 .banner_5 .meiti_logs {
-    flex: 1;
     width: 100%;
     height: 1rem;
     overflow: hidden;
@@ -816,4 +812,36 @@ body {
     flex: 1;
     text-align: center;
     color: #ffffff;
+}
+
+.box-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    z-index: 99;
+    display: none;
+}
+
+.box {
+    position: absolute;
+    text-align: center;
+    z-index: 101;
+    display: none;
+}
+
+.demo {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.btnCancel {
+    float: right;
+    width: 50px;
+    height: 30px;
 }
