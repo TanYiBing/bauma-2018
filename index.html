@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="format-dection" content="telephone=no" /> 
+    <meta name="format-dection" content="telephone=no" />
     <title>2018混凝土年会,混凝土年会时间,混凝土年会地址,新闻-上海世邦机器有限公司</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -527,13 +527,13 @@
             var div = document.querySelector('.meiti_logs');
             var ul1 = document.querySelector('.ul_one');
             var ul2 = document.querySelector('.ul_two');
-            var length = ul1.offsetWidth;
+            var length = ul1.offsetWidth; // rem
             var x = 0;
             var fun = function () {
-                ul1.style.left = x/100 + 'rem';
-                ul2.style.left = (x + length)/100 + 'rem';
+                ul1.style.left = x / 100 + 'rem';
+                ul2.style.left = (x / 100 + 29) + 'rem';
                 x--;
-                if ((x + length) == 0) {
+                if ((x / 100 + 29) == 0) {
                     x = 0;
                 }
             }
